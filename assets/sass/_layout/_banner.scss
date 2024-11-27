@@ -1,0 +1,45 @@
+//Banner Section Start
+.banner__section{
+    overflow: hidden;
+    position: relative;
+    background: #3803CE;
+    .bg__shape{
+        position: absolute;
+        top: 0;
+        height: 100%;
+        img{
+            height: 100%;
+        }
+        left: 0;
+    }
+    .banner__shape__img{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+}
+.banner__wrap{
+    padding: 110px 0 120px;
+}
+.banner__thumb{
+    width: 450px;
+    img{
+        @include imgw;
+    }
+    position: relative;
+}
+.banner__content{
+    position: relative;
+    h3{
+        margin-bottom: 20px;
+    }
+    h1{
+        color: var(--white-color);
+        margin-bottom: 20px;
+        line-height: 89px;
+    }
+    h4{
+        margin-bottom: 40px;
+    }
+}
+//Banner Section End
